@@ -12,6 +12,8 @@
 		53AFC5481D1AF9F80000415E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AFC5471D1AF9F80000415E /* Assets.xcassets */; };
 		53AFC54B1D1AF9F80000415E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AFC5491D1AF9F80000415E /* LaunchScreen.storyboard */; };
 		53AFC5571D1AFCA10000415E /* InputAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AFC5561D1AFCA10000415E /* InputAmountViewController.swift */; };
+		53AFC55C1D1B00560000415E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AFC55B1D1B00560000415E /* CameraViewController.swift */; };
+		53AFC55E1D1B02640000415E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AFC55D1D1B02640000415E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		53AFC54A1D1AF9F80000415E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53AFC54C1D1AF9F80000415E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53AFC5561D1AFCA10000415E /* InputAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputAmountViewController.swift; path = Classes/Controllers/InputAmountViewController.swift; sourceTree = "<group>"; };
+		53AFC55B1D1B00560000415E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Classes/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		53AFC55D1D1B02640000415E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53AFC55E1D1B02640000415E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		53AFC5341D1AF9F80000415E = {
 			isa = PBXGroup;
 			children = (
+				53AFC55D1D1B02640000415E /* AVFoundation.framework */,
 				53AFC53F1D1AF9F80000415E /* warikanman */,
 				53AFC53E1D1AF9F80000415E /* Products */,
 			);
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				53AFC5561D1AFCA10000415E /* InputAmountViewController.swift */,
+				53AFC55B1D1B00560000415E /* CameraViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -176,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53AFC5411D1AF9F80000415E /* AppDelegate.swift in Sources */,
+				53AFC55C1D1B00560000415E /* CameraViewController.swift in Sources */,
 				53AFC5571D1AFCA10000415E /* InputAmountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

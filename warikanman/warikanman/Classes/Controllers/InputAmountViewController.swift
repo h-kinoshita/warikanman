@@ -12,12 +12,13 @@ import UIKit
 // mark: - InputAmountViewController
 class InputAmountViewController: UIViewController, UITextFieldDelegate {
 
+    
+// mark: - public vars
+    internal var amount: NSString = "";
+
+    
 // mark: - properties
     @IBOutlet weak var amountTextField: UITextField!
-    
-
-// mark: - public vars
-    var amount: NSString = "";
 
 // mark: - lifecycle
     override func viewDidLoad() {
@@ -47,5 +48,8 @@ class InputAmountViewController: UIViewController, UITextFieldDelegate {
 
 // mark: - Actions
     @IBAction func okButtonTapped(sender: AnyObject) {
+        let cameraViewController: CameraViewController = storyboard!.instantiateViewControllerWithIdentifier("CameraViewController") as! CameraViewController
+        cameraViewController.amount = self.amount
+        presentViewController(cameraViewController, animated: true, completion: nil)
     }
 }

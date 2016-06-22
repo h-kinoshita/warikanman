@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="351.5" y="321.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="9be-sf-b2c">
             <objects>
-                <viewController id="oca-rK-TSb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraViewController" id="oca-rK-TSb" customClass="CameraViewController" customModule="warikanman" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OqK-Yn-1Hn"/>
                         <viewControllerLayoutGuide type="bottom" id="7kZ-wd-2vl"/>
